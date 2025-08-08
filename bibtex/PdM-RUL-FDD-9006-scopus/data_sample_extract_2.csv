@@ -1,0 +1,101 @@
+Domain,Input,Output,Modeling category,Modeling technique,Explainability,Relevance,EID
+Chip manufacturing,Sensor data,Fault prediction,Data driven,Attention-1DCNN,No,4,2-s2.0-85219599283
+Chip manufacturing,Sensor data,Fault prediction,Data driven,"['Support Vector Machine', 'Learning Vector Quantization', 'Time Series Analysis']",No,4,2-s2.0-85101539067
+Commercial buildings,Structured data,Fault prediction,Rules and/or logic based,"Residual-based detection, adaptive thresholds",Yes: Residuals and adaptive thresholds,5,2-s2.0-85101634616
+Bridges / Structural Health Monitoring,Sensor data,Condition indicators / Deviation detection,Data driven,Statistical evaluation,Yes: Statistical analysis,1,2-s2.0-85202570011
+Power Transmission and Transformation Systems (GIS equipment),"['Sensor data', 'Time series', 'Images']",Fault prediction,Data driven,"['Signal analysis', 'Feature extraction']",Yes: Use of temperature and vibration analysis provides interpretable features,3,2-s2.0-85100730328
+Industrial systems,"Sensor data, Natural language text","Remaining Useful Life, Fault prediction",Data driven,"Big data analytics, AI techniques",No,3,2-s2.0-105002701232
+Power cable systems,"Simulation data, electrical signals","Fault prediction, Localization",Physics based,ATP-EMTP simulation,Yes: Physical modeling and simulation,0,2-s2.0-85087501853
+Industrial asset management / Structural health monitoring,Sensor data,Asset health monitoring / Maintenance decision support,Data driven,Not specified (implies use of IoT data analytics and possibly machine learning techniques),No,3,2-s2.0-85219629578
+Manufacturing facilities,Sensor data,Fault prediction,Data driven,"['Random Forest', 'XGBoost']",Yes: Tree-based models like Random Forest and XGBoost are generally interpretable/show features importance,4,2-s2.0-105002705678
+Industrial systems / control systems,Structured data,Fault prediction,Rules and/or logic based,"['Unknown input observer (UIO)', 'Parity', 'Factorization methods']",Yes: rule-based and model-based fault detection techniques,3,2-s2.0-85185563016
+Sports facilities (cricket stadiums),Sensor data,Future ground conditions prediction,Data driven,Machine learning,No,2,2-s2.0-85174247217
+Chip manufacturing,Sensor data,Fault prediction,Physics based,3D thermal simulation,Yes: physics based simulation,3,2-s2.0-85106421439
+Industrial equipment maintenance,"Structured data, Knowledge Graph",Link prediction / Fault explanation,Hybrid,Attention-Based Compressed Relational Graph Convolutional Network,Yes: Attention mechanism,3,2-s2.0-85143086436
+Aero-engines,"Sensor data, Time series",Remaining Useful Life,Data driven,"['Principal Component Analysis (PCA)', 'Relevance Vector Machine (RVM)']",No,4,2-s2.0-85143084533
+Other,Sensor data,Fault prediction,Data driven,RNN,No,3,2-s2.0-85215006568
+Industrial manufacturing,"Sensor data, Time series","Fault prediction, Remaining Useful Life",Data driven,"Machine learning (classification, regression, time series forecasting)",No,4,2-s2.0-105002704574
+Geological monitoring / Seismic monitoring,Sensor data,Baseline seismicity monitoring,Data driven,"Sensor array analysis, seismic signal processing",Yes: signal analysis and noise reduction techniques,2,2-s2.0-85181399410
+Prognostics and Health Management (PHM) for complex systems,Sensor data,Remaining Useful Life,Data driven,LSTM,No,4,2-s2.0-85099702223
+Aero-engine systems,Sensor data,Remaining Useful Life,Data driven,Multi-scale spatiotemporal attention mechanism,Yes: attention mechanism,5,2-s2.0-85205679906
+Sensors / Electromagnetic sensors,Sensor data,Fault prediction,Data driven,Spectral analysis / Discrete Fourier Transform (DFT),Yes: spectral analysis,2,2-s2.0-85151531969
+Industrial manufacturing systems,Sensor data,Fault prediction,Data driven,Artificial Intelligence-powered analytics,No,4,2-s2.0-85186663506
+Industrial processes,Sensor data,Quality variable prediction,Data driven,Graph Convolutional Network (GCN),Yes: incorporates prior knowledge via graphs,4,2-s2.0-85205695140
+Pharmaceutical facilities,"['Images', 'Radiometric data']",['Fault prediction'],Data driven,"Image processing, Pattern recognition (thermal fingerprint)",Yes: Interpretable image segmentation and pattern recognition,2,2-s2.0-85099457965
+Internet of Things (IoT) networks,Structured data,Fault prediction,Data driven,Machine learning,No,1,2-s2.0-85207091350
+Industrial systems with rotating machinery (specifically induction motors and bearings in automotive and home appliances),Sensor data,Fault prediction,Data driven,"['Empirical Mode Decomposition (EMD)', 'Backpropagation Neural Network (BNN)']",No,2,2-s2.0-85127002510
+Industrial systems / Bearing fault diagnosis,Sensor data,Fault prediction,Data driven,"['CNN', 'ELM']",No,3,2-s2.0-85100878619
+Industrial systems using induction motors or electromechanical equipment in industrial settings,"Sensor data, Time series, Images",Fault prediction,Data driven,"Deep Transfer Learning, CNN (Squeezenet)",No,4,2-s2.0-85138828495
+Aviation systems,"Sensor data, Time series",Remaining Useful Life,Data driven,"['LSTM', 'SHAP analysis']",Yes: SHAP analysis,4,2-s2.0-85208650028
+Aircraft engines / aviation industry,Sensor data,Remaining Useful Life,Data driven,"['XGBoost', 'LightGBM']",No,4,2-s2.0-85101200797
+Industrial systems,IoT data,Fault prediction,Data driven,AutoML,Yes: Interpretable ML algorithms,4,2-s2.0-85215789664
+Industrial systems / Rolling bearings,Sensor data,Fault prediction,Data driven,"Variational Autoencoder (VAE), Generative Adversarial Network (GAN)",No,2,2-s2.0-85219595020
+Manufacturing machinery,Sensor data,Remaining Useful Life,Hybrid,"['Event clustering', 'Regression']",Yes: Event-based genomics and failure sequence analysis,4,2-s2.0-85093976423
+Other,Sensor data,Fault prediction,Data driven,"['SVM', 'Gravity Search Algorithm']",Yes: Support Vector Machine,3,2-s2.0-85219620460
+Structural health monitoring,Sensor data,Fault prediction,Data driven,"AI (unspecified), embedded AI models on sensor nodes",No,3,2-s2.0-85202556406
+Electric Vehicles (EVs),Sensor data,"Remaining Useful Life, Fault prediction, Root cause analysis",Data driven,"Blockchain, IoT sensors, Smart contracts","Yes: Smart contracts and blockchain provide transparent, explainable tracking",3,2-s2.0-105002272464
+Industrial assets,Sensor data,Fault prediction / Anomaly detection,Data driven,Machine learning,No,3,2-s2.0-85205771179
+Switched systems,Sensor data,Fault prediction,Rules and/or logic based,"Interval observers, LMIs",Yes: Rules and/or logic based techniques,2,2-s2.0-85092169576
+Motorcycle systems,Sensor data,Fault prediction,Data driven,LSTM,No,1,2-s2.0-85151533490
+Water distribution networks,Sensor data,Data completeness/imputation quality,Data driven,"['k-Nearest Neighbors', 'MissForest', 'Transformers', 'Recurrent Neural Networks']",No,1,2-s2.0-105007286098
+Other,Structured data,Data security & integrity,Rules and/or logic based,"Blockchain, digital signatures, cryptography",Yes: Rules-based and cryptographic techniques,2,2-s2.0-85215000688
+Industrial robots,Sensor data,Fault prediction,Data driven,Machine learning,No,4,2-s2.0-85097712425
+Aerospace structures,"['Acceleration data', 'Strain data']",['Fault prediction'],Hybrid,"['NSFD (Nullspace-based Fault Detection)', 'Machine Learning']",No,3,2-s2.0-85202635266
+Wireless Sensor Networks (WSNs),Sensor data,Remaining Useful Life,Rules and/or logic based,"Greedy clustering, Distributed clustering, Data aggregation",Yes: rules and clustering algorithms,0,2-s2.0-85186715102
+Electric Vehicles / Automotive systems,Sensor data,Fault prediction / Fault detection,Rules and/or logic based,"Sensor fusion, Fault Detection and Isolation (FDI)",Yes: Rules and logical comparison,1,2-s2.0-85092154880
+Chip manufacturing,Sensor data,Remaining Useful Life,Physics based,"Wiener process, Maximum likelihood estimation (MLE)","Yes: correlation analysis, degradation signal transformation",4,2-s2.0-85219592605
+Nuclear systems,Time series,Fault prediction,Data driven,"['Decision Tree (DT)', 'Extreme Gradient Boosting (XGBoost)', 'Recurrent Neural Networks (RNN)', 'Long Short-Term Memory (LSTM) networks']",No,2,2-s2.0-85215773785
+Industrial systems,Sensor data,Fault prediction,Data driven,"['Random Forest', 'LSTM', 'Autoencoders']",No,4,2-s2.0-105002704317
+Industrial generators,Sensor data,Fault prediction,Data driven,Pattern recognition,No,4,2-s2.0-85096779616
+"Industrial rotating machinery, specifically centrifugal pumps","Multi-sensor process monitoring data (flow rate, pressure, electric current, electric voltage)",Remaining Useful Life,Data driven,"Bayesian nonparametric clustering, State-space based predictive model",Yes: Bayesian nonparametric clustering and degradation index provide interpretability,4,2-s2.0-85093929778
+Photovoltaic (PV) systems,Sensor data,Fault prediction,Hybrid,"['Multiple Regression', 'Kalman Filter']",Yes: Regression and Kalman Filter are interpretable techniques,2,2-s2.0-85166023186
+Pressure vessels / Structural health monitoring,Sensor data,Fault prediction,Data driven,Signal analysis with damage indices,Yes: damage indices and feature analysis,2,2-s2.0-85202602532
+Industrial systems,Sensor data,Remaining Useful Life,Data driven,Various classifiers (not specified precisely),No,4,2-s2.0-85199443655
+Field Service Management,Sensor data,Predictive maintenance,Hybrid,"Machine Learning, Data analytics",No,3,2-s2.0-85211798707
+Commercial buildings,Structured data,Fault prediction,Rules and/or logic based,"Unknown input observers (UIO), LQR controller",Yes: rule-based / observer-based techniques,4,2-s2.0-85098321344
+Rotating machinery health monitoring,Sensor data,Fault prediction,Data driven,Sparse nonnegative Tucker decomposition (sNTD),"Yes: spectral factor, segmental factor, channel-wise factor, and sparse core tensor are interpretable features of the tensor decomposition",4,2-s2.0-85202570611
+Industrial systems / equipment,Sensor data / Time series,Remaining Useful Life,Data driven,Functional principal component analysis (FPCA),Yes: FPCA provides interpretable features and insights,4,2-s2.0-85219600038
+Other,Images,Fault prediction,Data driven,"['YOLO', 'HSV color space analysis']",No,2,2-s2.0-85211777981
+Smart city infrastructure / Street lighting systems,"Sensor data, Telemetry data, GPS data","Fault prediction, Location tracking",Data driven,"Fault detection algorithms, IoT data analytics",Yes: Rule-based fault detection and location tracking algorithms,3,2-s2.0-85200654885
+"Infrastructure, Bridges, Buildings, Ships, Wind Turbines, Mining equipment","Sensor data, Nondestructive testing data","Damage detection, Structural health status",Physics informed,CVM (Comparative Vacuum Monitoring),Yes: Physical models and sensor-based diagnostics,4,2-s2.0-85202624678
+Electrical drives / Motor systems,Sensor data,Fault prediction,Data driven,"Third Difference Operator (TDO), logic circuit, simulation in MATLAB/SIMULINK",Yes: logic circuit and rule-based detection,2,2-s2.0-85152395184
+Healthcare facilities / Patient monitoring systems,Time series,Fault prediction,Data driven,Anomaly detection / Data anomaly identification,Yes: Rule-based and anomaly detection techniques,2,2-s2.0-85104565772
+Electrical systems / Power electronics,Sensor data,Fault prediction / Protection strategy,Rule-based,Rules and logic based,Yes: Rules and logic,2,2-s2.0-85113415459
+Electric vehicles,"Sensor data, Time series",Fault prediction,Data driven,"Transformers, CNNs, FCNs",No,2,2-s2.0-85205731825
+Autonomous Vehicles,"Time series, Images",Fault prediction,Data driven,"Transformer, One-class classification",No,1,2-s2.0-85124149051
+Consumer goods (bike chains),Sensor data (solid-borne sound analysis),Fault prediction,Data driven,Digital analysis of sound data,Yes: Interpretability of sound analysis,2,2-s2.0-85100313287
+"Specialized vehicles (agriculture, construction, municipal purposes, etc.)",Sensor data,Fault prediction,Data driven,Simulation model,Yes: simulation-based,1,2-s2.0-85096654285
+Rotary machinery,Sensor data,Fault prediction,Data driven,"['Empirical mode decomposition (EMD)', 'Principal Component Analysis (PCA)', 'RBF classifier', 'MLP', 'Fuzzy C-Means (FCM)']",No,4,2-s2.0-85098332925
+Steel mill plant,"['Sensor data', 'Images']",['Fault prediction'],Hybrid,['Image processing'],Yes: Information visualization for human-machine interaction,3,2-s2.0-85088533067
+Structural health monitoring in engineering structures,Sensor data,Sensor anomalies and structural anomalies,Data driven,"['Correlation analysis', 'Gaussian process regression']",Yes: correlation analysis and Gaussian process regression are interpretable techniques,1,2-s2.0-85202616303
+Other,Sensor data,Fault prediction,Rules and/or logic based,Rules-based approach,Yes: Rules-based approach,1,2-s2.0-85099704280
+3D printing / Additive manufacturing,Sensor data,Fault prediction,Data driven,"Predictive maintenance algorithms (unspecified, likely ML-based)",No,3,2-s2.0-85215696352
+Commercial buildings,"['Sensor data', 'Structured data']",['Fault prediction'],Data driven,Not explicitly specified,No,3,2-s2.0-85123941498
+Electrical distribution systems,['Sensor data'],"['Loss of Life', 'Health Index']",Data driven,,Yes: rule-based and simple thresholding,4,2-s2.0-85200754383
+Industrial systems (specifically induction motors and bearings),Sensor data,Remaining Useful Life,Hybrid,"['Signal processing', 'Machine learning', 'Digital Twin']",Yes: Digital Twin (since it provides interpretable virtual models),4,2-s2.0-105002281893
+Large-scale structures / Bridges,"Sensor data, Synthetic measurement data",Structural damage assessment / Structural health status,Physics based,"Reduced-order models, Static Condensation Reduced Basis Element (SCRBE)",Yes: Domain knowledge and physics-informed models,3,2-s2.0-85202601068
+Hydrogen pressure vessels / Structural health monitoring,Sensor data,Fault prediction,Data driven,Signal processing methods and machine learning,Yes: signal processing methods and machine learning,4,2-s2.0-85202635241
+Spacecraft systems,Historical data,Fault prediction,Data driven,"Bi-LSTM neural networks, Adaptive tracking differentiator (ATD)",No,1,2-s2.0-85205713734
+Maritime industry,"Sensor data, Time series",Fault prediction,Data driven,Machine learning (specific techniques not explicitly mentioned),No,3,2-s2.0-85099649337
+Pipeline systems,Sensor data,Fault prediction,Hybrid,"Data-centric and model-centric methods (e.g., combining data-driven and physics-based approaches)","Yes: Rules and/or logic based, combined with data-driven methods",4,2-s2.0-85202643744
+Autonomous Vehicles,Sensor data,Fault prediction,Data driven,"['Kernel PCA', 'Wavelet analysis']","Yes: Hotelling T-squared, SPE statistics are interpretable and used for fault detection decision-making",3,2-s2.0-85208247342
+Storage Battery,Sensor data,Anomaly detection,Data driven,Graph Neural Network (GNN),Yes: Interpretable weights in the GNN,4,2-s2.0-85217163254
+IoT and sensor network hardware security,Structured data,Fault prediction,Rules and/or logic based,Hardware implementation and comparison,Yes: Rule-based logic,1,2-s2.0-85098331923
+Rotorcraft bearings / Mechanical systems,Sensor data,Fault prediction,Physics based,"FEA (Finite Element Analysis), sensor simulation",Yes: rule-based simulation and physics-based modeling,1,2-s2.0-85219645681
+Vectoring nozzle control system,Sensor data,Fault prediction,Knowledge based,"Bayesian network, Bayesian classifier",Yes: Bayesian network and Bayesian classifier are interpretable techniques,2,2-s2.0-85093976597
+Connected and automated vehicles,Sensor data,Fault prediction,Hybrid,"Extended Kalman Filter (EKF), χ2 fault detector",Yes: Kalman filter and χ2 detector techniques,2,2-s2.0-85099546642
+Industrial systems,"Sensor data, Time series",Fault prediction,Data driven,Artificial Neural Network (ANN),No,3,2-s2.0-85087062354
+Photovoltaic systems,Sensor data,Fault prediction,Data driven,"['Ensemble learning', 'EWMA chart', 'Kernel density estimation']",No,2,2-s2.0-85166019574
+Industrial assets in a factory,Sensor data,Fault prediction,Data driven,Machine learning models (specific techniques not specified),No,4,2-s2.0-85205834093
+Industrial vibration monitoring,"Sensor data, Time series",Data compression,Data driven,"['K-means clustering', 'Discrete Cosine Transform (DCT)']",Yes: Clustering algorithms and signal processing techniques are interpretable,2,2-s2.0-85100899908
+Civil infrastructure,Sensor data,Fault prediction,Physics based,FMCW sensing analysis,Yes: signal amplitude contrast analysis,3,2-s2.0-85099318437
+Home Appliances,Sensor data,Remaining Useful Life,Data driven,,No,4,2-s2.0-85214981794
+Chip manufacturing,Structured data,Fault prediction,Data driven,Sequential Monte Carlo,No,0,2-s2.0-105002703265
+Solar energy systems,"Sensor data, Time series, Unstructured data","Forecasting energy generation, System performance",Data driven,"ANN, LSTM, hybrid AI models",No,4,2-s2.0-105002704511
+Structural health monitoring (SHM) systems,Time series,Fault prediction,Data driven,LSTM (Long Short-Term Memory network),No,5,2-s2.0-85202632079
+"Industrial systems (actuators, electromechanical systems)",Sensor data,Remaining Useful Life,Hybrid,"Machine learning, multi-physics simulation",No,4,2-s2.0-85178620665
+Chip manufacturing,"Sensor data, Time series","Remaining Useful Life, Fault prediction",Data driven,"Decision trees, Similarity-based models",Yes: Bagged decision trees,4,2-s2.0-85202516231
+Industrial systems (centrifugal pumps),Electrical signals,Fault prediction,Data driven,"Convolutional Autoencoder, Deep neural network",No,3,2-s2.0-85185567164
+Renewable Energy Systems,Sensor data,Remaining Useful Life,Data driven,Machine Learning / ML,No,2,2-s2.0-105002271188
+Renewable energy systems,Sensor data,Fault prediction,Data driven,Machine Learning,No,4,2-s2.0-85099207183
+DC Microgrids,Sensor data,Fault prediction,Rules and/or logic based,"Residual-based observer scheme, adaptive high-gain observer",Yes: residual thresholds for fault detection,2,2-s2.0-85097558237

@@ -1,0 +1,11 @@
+Domain,Input,Output,Modeling category,Modeling technique,Explainability,Relevance,EID
+Industrial machinery, Sensor data, Fault prediction, Data driven, Attention-1DCNN, Yes: Attention-1DCNN, 4,2-s2.0-85219599283
+Manufacturing, Sensor data, Fault prediction, Data driven, Support Vector Machine, No, 4,2-s2.0-85101539067
+Building automation, Sensor data, Fault prediction, Rules and/or logic based, Residual analysis, Yes, 4,2-s2.0-85101634616
+Bridge, Sensor data, Condition indicators, Data driven, Statistical analysis, No, 3,2-s2.0-85202570011
+Power transmission and transformation, Sensor data, Fault prediction, Data driven, Not specified, No, 4,2-s2.0-85100730328
+Industrial systems, Sensor data, Remaining Useful Life, Data driven, AI techniques, No, 4,2-s2.0-105002701232
+Power cables, Sensor data, Fault prediction, Physics based, ATP-EMTP, No, 2,2-s2.0-85087501853
+Industrial systems, Sensor data, Fault prediction, Hybrid, IoT sensors + software platforms, No, 4,2-s2.0-85219629578
+Manufacturing, Sensor data, Fault prediction, Data driven, Random Forest, Yes, 4,2-s2.0-105002705678
+Industrial systems, Structured data, Fault prediction, Rules and/or logic based, Unknown input observer (UIO), Yes, 2,2-s2.0-85185563016

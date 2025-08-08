@@ -1,0 +1,20 @@
+Domain,Input,Output,Modeling category,Modeling technique,Explainability,Relevance,EID
+Navigation systems / Aerospace systems,Sensor data,Fault prediction,Data driven,Extended Kalman Filter (EKF),Yes: Rules and filtering techniques,2,2-s2.0-85167810970
+Industrial IoT applications,"Sensor data, Time series",Remaining Useful Life,Data driven,"['CNN', 'RNN']",No,4,2-s2.0-85196096785
+3D printing / Additive manufacturing,Sensor data,Remaining Useful Life,Data driven,Prognostic model (likely machine learning or statistical modeling),Yes: decision support tool (implying interpretability of predictions and optimization),4,2-s2.0-85168427262
+Structural health monitoring / Civil infrastructure,Electro-mechanical impedance data,Damage classification,Data driven,"['Decision trees', 'Random forests', 'K-nearest neighbors', 'Support vector machines', 'Naive Bayes']","Yes: Decision trees, Random forests, K-nearest neighbors",3,2-s2.0-85201317790
+Chip manufacturing,Sensor data,Setup cost prediction,Data driven,Supervised learning,No,3,2-s2.0-85216668025
+Satellite power systems,Sensor data,Fault prediction,Hybrid,"['Fuzzy neighbourhood three-way decision (FN3WD)', 'Gaussian-mixture-model (EFSA-GMM)', 'Coding-with-knowledge-discrimination (CWKD)', 'MC-DCNN', 'MC-SVM', 'ML-DCNN', 'ML-SVM']",Yes: Knowledge-based and rule-based components,3,2-s2.0-85122626606
+Process industries,"Process control data, sensor data, and possibly structured process parameters","Fault detection, fault tolerant control, optimization, planning, scheduling",Reinforcement learning,Reinforcement Learning,No,2,2-s2.0-85184374776
+Aerospace systems,Sensor data,Model updates / Dynamic state mapping,Data driven,"Transformer Encoder, Lifelong Learning, Frozen-EWC",No,0,2-s2.0-85168748271
+Chip manufacturing,Sensor data,Fault prediction,Hybrid,"Markov models, Lyapunov theory",Yes: Lyapunov analysis and Markov models,3,2-s2.0-85126287322
+Railway systems / Wheel/rail system,Audio signals / Microphone data,Fault prediction / Fault identification and localisation,Rules and/or logic based,Kurtosis beamforming,Yes: Kurtosis-based method,3,2-s2.0-85067835259
+Aerospace industry,Sensor data,Remaining Useful Life,Data driven,"['ANFIS', 'SVM', 'Gaussian processes']",Yes: ANFIS,2,2-s2.0-85097591583
+Light aircraft systems,Sensor data,Fault prediction,Unclear / Not specified,Self-organizing maps,Yes: Self-organizing maps,4,2-s2.0-85210256413
+Farm machinery / Agriculture,Telematics data,Predictive maintenance / Maintenance needs,Data driven,"Predictive analytics (not explicitly specified, but implied to be data-driven modeling)",No,4,2-s2.0-85201139380
+Smart farming,"Sensor data, Big data analytics, IoT data","Predictive maintenance, Real-time monitoring, Decision-making",Data driven,"AI, Big data analytics",No,1,2-s2.0-105008421699
+Marine structures,Sensor data,Corrosion-induced thickness loss detection,Data driven,"Statistical pattern recognition, Machine learning",No,4,2-s2.0-85148737588
+Chip manufacturing,Sensor data,Fault prediction,Data driven,"['Empirical Mode Decomposition (EMD)', 'Statistical complexity measures (SCM)', 'Stochastic resonance']",Yes: statistical complexity measures and empirical mode decomposition are interpretable techniques,3,2-s2.0-85125872513
+Civil structures / Structural health monitoring (SHM),Sensor data,Fault prediction,Hybrid,"Autoencoders, Particle filters",Yes: fault indicator modules with thresholds and probabilistic indicators,3,2-s2.0-85107872040
+Aerospace / Rotorcraft UAVs,"Sensor data, Time series",Fault prediction,Data driven,Deep Forest,No,2,2-s2.0-85145590270
+Aircraft engines,Multivariate time series (MTS),Remaining Useful Life,Data driven,"Graph signals transformation, multi-level feature extraction, smoothing technique",Yes: interpretability via hierarchical feature extraction and smoothing,4,2-s2.0-85206934786

@@ -1,0 +1,11 @@
+Domain,Input,Output,Modeling category,Modeling technique,Explainability,Relevance,EID
+Chip manufacturing,"Sensor data, Time series",Fault prediction,Data driven,Attention-1DCNN,No,4,2-s2.0-85219599283
+Manufacturing - Grinding Machines,Sensor data,Fault prediction,Data driven,"['Support Vector Machine', 'Learning Vector Quantization', 'Time Series Analysis']",No,4,2-s2.0-85101539067
+Commercial buildings,Structured data,Fault prediction / Fault detection and localization,Rules and/or logic based,Residual-based detection with adaptive thresholds,Yes: Residual analysis with thresholds,4,2-s2.0-85101634616
+Bridges / Structural Health Monitoring,Sensor data,Condition indicators / Structural health status,Data driven,"Statistical evaluation, data analysis",Yes: statistical and visualization techniques,3,2-s2.0-85202570011
+Power transmission and transformation systems (specifically GIS equipment),"Sensor data, Images",Fault prediction,Data driven,Not explicitly specified in the abstract,No,2,2-s2.0-85100730328
+Industrial systems / smart manufacturing,"Sensor data, Time series",Remaining Useful Life,Data driven,"Big data analytics, AI techniques",No,3,2-s2.0-105002701232
+Power cable systems,"Simulated data, Electrical signals","Fault prediction, Localization of partial discharge signals",Physics based,"ATP-EMTP simulation, Propagation analysis",Yes: Physics based models and simulation analysis,3,2-s2.0-85087501853
+General industrial asset management / Structural health monitoring,"['Sensor data', 'Structured data']",['Asset health monitoring'],Data driven,Not specified,No,1,2-s2.0-85219629578
+Manufacturing production lines,Sensor data,Fault prediction,Data driven,"['Random Forest', 'XGBoost']",No,4,2-s2.0-105002705678
+Chemical plants / Industrial process control,Structured data,Fault prediction,Rules and/or logic based,"['Unknown input observer (UIO)', 'Parity method', 'Factorization method']",Yes: Rules and logic based methods,2,2-s2.0-85185563016
